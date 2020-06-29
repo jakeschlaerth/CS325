@@ -4,7 +4,6 @@ def mergeSort(num_list):
     :param num_list: num_list[0] = number of elements to be sorted
     :return: none, num_list is mutable
     """
-    # del num_list[0]
     if len(num_list) > 1:
         middle = len(num_list) // 2  # integer divide to find middle
         left = num_list[:middle]  # slice list into right and left halves
